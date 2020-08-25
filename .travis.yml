@@ -1,3 +1,4 @@
+dist: bionic
 language: ruby
 
 bundler_args: "--binstubs --standalone --without documentation --path ../bundle"
@@ -11,6 +12,7 @@ rvm:
   - 2.5.5
   - 2.6.3
   - 2.7.0
+  - ruby-head
   - truffleruby
 notifications:
   email: false
